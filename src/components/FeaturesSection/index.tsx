@@ -53,12 +53,32 @@ export default function FeaturesSection(): ReactNode {
           <div className="col col--4">
             <div className={styles.featuresDevice}>
               <div className={styles.deviceWrapper}>
-                <div className={styles.device}>
-                  <div className={styles.screen}>
-                    <video muted autoPlay loop className={styles.demoVideo}>
-                      <source src="/img/demo-screen.mp4" type="video/mp4" />
-                    </video>
-                  </div>
+                <div className={styles.stackedImages}>
+                  <img
+                    src="/img/render_1749455127506.png"
+                    alt="App Screenshot 1"
+                    className={styles.stackedImage}
+                  />
+                  <img
+                    src="/img/render_1749454347432.png"
+                    alt="App Screenshot 2"
+                    className={styles.stackedImage}
+                  />
+                  <img
+                    src="/img/render_1749454486512.png"
+                    alt="App Screenshot 3"
+                    className={styles.stackedImage}
+                  />
+                  <img
+                    src="/img/render_1749454819632.png"
+                    alt="App Screenshot 4"
+                    className={styles.stackedImage}
+                  />
+                  <img
+                    src="/img/render_1749455059269.png"
+                    alt="App Screenshot 5"
+                    className={styles.stackedImage}
+                  />
                 </div>
               </div>
             </div>

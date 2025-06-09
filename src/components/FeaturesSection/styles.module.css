@@ -28,8 +28,75 @@
 
 .deviceWrapper {
   position: relative;
-  width: 300px;
+  width: 350px;
+}
+
+/* 新增堆叠图片容器样式 */
+.stackedImages {
+  position: relative;
+  width: 100%;
   height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 堆叠图片样式 */
+.stackedImage {
+  position: absolute;
+  width: 280px;
+  height: auto;
+  border-radius: 20px;
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); */
+  transition: transform 0.3s ease, z-index 0.3s ease;
+}
+
+/* 为每张图片设置不同的位置和旋转角度 */
+.stackedImage:nth-child(1) {
+  transform: rotate(-8deg) translateX(-20px) translateY(-10px);
+  z-index: 1;
+}
+
+.stackedImage:nth-child(2) {
+  transform: rotate(-4deg) translateX(-10px) translateY(-5px);
+  z-index: 2;
+}
+
+.stackedImage:nth-child(3) {
+  transform: rotate(0deg);
+  z-index: 3;
+}
+
+.stackedImage:nth-child(4) {
+  transform: rotate(4deg) translateX(10px) translateY(-5px);
+  z-index: 2;
+}
+
+.stackedImage:nth-child(5) {
+  transform: rotate(8deg) translateX(20px) translateY(-10px);
+  z-index: 1;
+}
+
+/* 悬停效果 */
+.stackedImages:hover .stackedImage:nth-child(1) {
+  transform: rotate(-12deg) translateX(-40px) translateY(-20px);
+}
+
+.stackedImages:hover .stackedImage:nth-child(2) {
+  transform: rotate(-6deg) translateX(-20px) translateY(-10px);
+}
+
+.stackedImages:hover .stackedImage:nth-child(3) {
+  transform: rotate(0deg) scale(1.05);
+  z-index: 5;
+}
+
+.stackedImages:hover .stackedImage:nth-child(4) {
+  transform: rotate(6deg) translateX(20px) translateY(-10px);
+}
+
+.stackedImages:hover .stackedImage:nth-child(5) {
+  transform: rotate(12deg) translateX(40px) translateY(-20px);
 }
 
 .device {
@@ -59,13 +126,27 @@
 @media screen and (max-width: 996px) {
   .deviceWrapper {
     width: 250px;
-    height: 500px;
+  }
+
+  .stackedImages {
+    height: 450px;
+  }
+
+  .stackedImage {
+    width: 200px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .deviceWrapper {
     width: 200px;
-    height: 400px;
+  }
+
+  .stackedImages {
+    height: 350px;
+  }
+
+  .stackedImage {
+    width: 160px;
   }
 }
