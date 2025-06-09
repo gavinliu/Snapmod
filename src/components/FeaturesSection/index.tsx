@@ -10,26 +10,39 @@ type FeatureItem = {
 const features: FeatureItem[] = [
   {
     icon: "📱",
-    title: "Device Mockups",
-    description: "Ready to use HTML/CSS device mockups, no Photoshop required!",
+    title: "机型适配",
+    description:
+      "从 iOS 到 Android，适配主流机型，让你的截图在任何设备上都完美呈现！",
   },
   {
-    icon: "📷",
-    title: "Flexible Use",
+    icon: "✨",
+    title: "极简美学",
     description:
-      "Put an image, video, animation, or anything else in the screen!",
+      "Material Design 3 加持，每一个像素都经过精心雕琢，颜值爆表到让人忍不住多看几眼！",
   },
   {
-    icon: "🎁",
-    title: "Free to Use",
+    icon: "🎨",
+    title: "智能换肤",
     description:
-      "As always, this theme is free to download and use for any purpose!",
+      "AI 智能识别截图主题色，自动切换最佳主题配色，打造独一无二的专属视觉盛宴！",
   },
   {
-    icon: "✅",
-    title: "Open Source",
+    icon: "🌈",
+    title: "魔法背景",
     description:
-      "Since this theme is MIT licensed, you can use it commercially!",
+      "告别单调背景！自动生成千变万化的模糊背景，让你的截图瞬间变身艺术品！",
+  },
+  {
+    icon: "⚡",
+    title: "闪电速度",
+    description:
+      "毫秒级响应，丝滑到让你怀疑人生！再也不用等待，灵感来了就能立刻捕捉！",
+  },
+  {
+    icon: "🎯",
+    title: "两步导出",
+    description:
+      "革命性的两步操作，从截图到导出只需眨眼功夫，简单到连奶奶都能轻松上手！",
   },
 ];
 
