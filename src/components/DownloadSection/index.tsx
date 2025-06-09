@@ -8,14 +8,18 @@ export default function DownloadSection(): ReactNode {
         <div className="text--center">
           <h2 className={styles.downloadTitle}>Get the app now!</h2>
           <div className={styles.downloadBadges}>
-            <a href="#!" className={styles.badgeLink}>
+            <a
+              href="https://play.google.com/store/apps/details?id=cn.gavinliu.snapmod"
+              target="_blank"
+              className={styles.badgeLink}
+            >
               <img
                 className={styles.appBadge}
                 src="/img/google-play-badge.svg"
                 alt="Get it on Google Play"
               />
             </a>
-            <a href="#!" className={styles.badgeLink}>
+            <a href="#!" target="_blank" className={styles.badgeLink}>
               <img
                 className={styles.appBadge}
                 src="/img/app-store-badge.svg"

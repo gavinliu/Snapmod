@@ -17,14 +17,18 @@ export default function HeroSection(): ReactNode {
               </p>
 
               <div className={styles.appBadges}>
-                <a href="#!" className={styles.badgeLink}>
+                <a
+                  href="https://play.google.com/store/apps/details?id=cn.gavinliu.snapmod"
+                  target="_blank"
+                  className={styles.badgeLink}
+                >
                   <img
                     className={styles.appBadge}
                     src="/img/google-play-badge.svg"
                     alt="Get it on Google Play"
                   />
                 </a>
-                <a href="#!" className={styles.badgeLink}>
+                <a href="#!" target="_blank" className={styles.badgeLink}>
                   <img
                     className={styles.appBadge}
                     src="/img/app-store-badge.svg"
