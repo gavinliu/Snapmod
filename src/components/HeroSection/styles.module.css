@@ -1,6 +1,6 @@
 /* 主标题区域样式 */
 .masthead {
-  padding: 8rem 0 4rem;
+  padding: 4rem 0 4rem;
   /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   /* color: white; */
   overflow: hidden;
@@ -9,7 +9,7 @@
 
 .heroContent {
   text-align: left;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .heroTitle {
@@ -55,13 +55,13 @@
 
 .deviceWrapper {
   position: relative;
-  width: 330px;
+  width: 350px;
 }
 
 /* 响应式设计 */
 @media screen and (max-width: 996px) {
   .masthead {
-    padding: 6rem 0 3rem;
+    padding: 3rem 0 3rem;
   }
 
   .heroTitle {
