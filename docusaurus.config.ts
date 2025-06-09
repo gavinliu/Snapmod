@@ -7,7 +7,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config: Config = {
   title: "Snapmod",
   tagline: "Better Screenshot mockup tools",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -81,15 +81,15 @@ const config: Config = {
       title: "Snapmod",
       logo: {
         alt: "Snapmod Logo",
-        src: "img/logo.svg",
+        src: "img/logo.png",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "tutorialSidebar",
+        //   position: "left",
+        //   label: "Tutorial",
+        // },
         {
           type: "dropdown",
           label: "Policies",
@@ -100,9 +100,14 @@ const config: Config = {
               label: "Privacy Policy",
               docId: "policies/privacy-policy",
             },
+            {
+              type: "doc",
+              label: "User terms",
+              docId: "policies/user-terms",
+            },
           ],
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/gavinliu/Snapmod",
           className: "header-github-link",
@@ -117,8 +122,12 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Privacy Policy",
+              to: "/docs/policies/privacy-policy",
+            },
+            {
+              label: "User terms",
+              to: "/docs/policies/user-terms",
             },
           ],
         },
@@ -126,26 +135,18 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              label: "Discussions",
+              href: "https://github.com/gavinliu/Snapmod/discussions",
             },
           ],
         },
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "/blog",
+            // },
             {
               label: "GitHub",
               href: "https://github.com/gavinliu/Snapmod",
@@ -153,7 +154,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Snapmod, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Snapmod, Inc.`,
     },
     prism: {
       theme: prismThemes.github,

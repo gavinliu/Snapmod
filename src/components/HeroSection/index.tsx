@@ -10,7 +10,7 @@ export default function HeroSection(): ReactNode {
             <div className={styles.heroContent}>
               <h1 className={styles.heroTitle}>Snapmod - Screenshot Mockups</h1>
               <p className={styles.heroSubtitle}>
-                Lets you to easily add your screenshots into device bezels.
+                Lets you to easily add screenshots into device bezels.
                 <br />
                 You can use it to share your screenshots, wallpapers or app
                 mockups
