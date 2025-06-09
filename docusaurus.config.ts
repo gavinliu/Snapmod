@@ -105,7 +105,7 @@ const config: Config = {
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/gavinliu/Snapmod",
-          label: "GitHub",
+          className: "header-github-link",
           position: "right",
         },
       ],
