@@ -37,13 +37,7 @@ export default function HeroSection(): ReactNode {
           <div className="col col--6">
             <div className={styles.deviceMockup}>
               <div className={styles.deviceWrapper}>
-                <div className={styles.device}>
-                  <div className={styles.screen}>
-                    <video muted autoPlay loop className={styles.demoVideo}>
-                      <source src="/img/demo-screen.mp4" type="video/mp4" />
-                    </video>
-                  </div>
-                </div>
+                <img src="/img/render_1749451420742.png" alt="App Screenshot" />
               </div>
             </div>
           </div>
