@@ -1,6 +1,5 @@
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
@@ -30,6 +29,12 @@ function HomepageHeader() {
   );
 }
 
+// 导入重构后的组件
+import HeroSection from "@site/src/components/HeroSection";
+import DownloadSection from "../components/DownloadSection";
+import FeaturesSection from "../components/FeaturesSection";
+import TestimonialSection from "../components/TestimonialSection";
+
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -37,9 +42,11 @@ export default function Home(): ReactNode {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HeroSection />
+        <TestimonialSection />
+        <FeaturesSection />
+        <DownloadSection />
       </main>
     </Layout>
   );

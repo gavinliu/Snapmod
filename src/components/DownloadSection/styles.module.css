@@ -1,0 +1,32 @@
+/* 下载区域样式 */
+.download {
+  background: linear-gradient(135deg, #2937f0, #9f1ae2);
+  color: white;
+  padding: 4rem 0;
+}
+
+.downloadTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.downloadBadges {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.badgeLink {
+  display: inline-block;
+}
+
+.appBadge {
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+
+.appBadge:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,24 @@
+/* 推荐语区域样式 */
+.testimonial {
+  background: linear-gradient(135deg, #2937f0, #9f1ae2);
+  color: white;
+  padding: 4rem 0;
+}
+
+.testimonialText {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 1.3;
+}
+
+.testimonialLogo {
+  height: 3rem;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonialText {
+    font-size: 1.5rem;
+  }
+}
