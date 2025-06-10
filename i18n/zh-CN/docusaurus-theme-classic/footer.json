@@ -15,8 +15,8 @@
     "message": "隐私政策",
     "description": "The label of footer link with label=Privacy Policy linking to /docs/policies/privacy-policy"
   },
-  "link.item.label.User terms": {
-    "message": "用户条款",
+  "link.item.label.Terms & Conditions": {
+    "message": "使用条款",
     "description": "The label of footer link with label=User terms linking to /docs/policies/user-terms"
   },
   "link.item.label.Discussions": {

@@ -15,8 +15,8 @@
     "message": "隐私政策",
     "description": "Navbar item with label Privacy Policy"
   },
-  "item.label.User terms": {
-    "message": "用户条款",
+  "item.label.Terms & Conditions": {
+    "message": "使用条款",
     "description": "Navbar item with label User terms"
   }
 }

@@ -115,8 +115,8 @@ const config: Config = {
             },
             {
               type: "doc",
-              label: "User terms",
-              docId: "policies/user-terms",
+              label: "Terms & Conditions",
+              docId: "policies/terms-conditions",
             },
           ],
         },
@@ -153,8 +153,8 @@ const config: Config = {
               to: "/docs/policies/privacy-policy",
             },
             {
-              label: "User terms",
-              to: "/docs/policies/user-terms",
+              label: "Terms & Conditions",
+              to: "/docs/policies/terms-conditions",
             },
           ],
         },
