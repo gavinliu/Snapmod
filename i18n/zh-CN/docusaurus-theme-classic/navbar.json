@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Snapmod",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Snapmod Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Policies": {
+    "message": "政策",
+    "description": "Navbar item with label Policies"
+  },
+  "item.label.Privacy Policy": {
+    "message": "隐私政策",
+    "description": "Navbar item with label Privacy Policy"
+  },
+  "item.label.User terms": {
+    "message": "用户条款",
+    "description": "Navbar item with label User terms"
+  }
+}

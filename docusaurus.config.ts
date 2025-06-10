@@ -33,7 +33,20 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "zh-CN"],
+    path: "i18n",
+    localeConfigs: {
+      en: {
+        label: "English",
+        direction: "ltr",
+        htmlLang: "en-US",
+      },
+      "zh-CN": {
+        label: "简体中文",
+        direction: "ltr",
+        htmlLang: "zh-CN",
+      },
+    },
   },
 
   presets: [
@@ -107,7 +120,21 @@ const config: Config = {
             },
           ],
         },
-        // { to: "/blog", label: "Blog", position: "left" },
+        // 添加语言切换器
+        {
+          type: "localeDropdown",
+          position: "right",
+          dropdownItemsAfter: [
+            {
+              type: "html",
+              value: '<hr style="margin: 0.3rem 0;">',
+            },
+            {
+              href: "https://github.com/gavinliu/Snapmod/issues",
+              label: "Help us translate",
+            },
+          ],
+        },
         {
           href: "https://github.com/gavinliu/Snapmod",
           className: "header-github-link",

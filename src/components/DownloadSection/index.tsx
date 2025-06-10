@@ -1,3 +1,4 @@
+import { translate } from "@docusaurus/Translate";
 import type { ReactNode } from "react";
 import styles from "./styles.module.css";
 
@@ -6,7 +7,13 @@ export default function DownloadSection(): ReactNode {
     <section className={styles.download}>
       <div className="container">
         <div className="text--center">
-          <h2 className={styles.downloadTitle}>Get the app now!</h2>
+          <h2 className={styles.downloadTitle}>
+            {translate({
+              id: "homepage.download.title",
+              message: "Get the app now!",
+              description: "Download section title",
+            })}
+          </h2>
           <div className={styles.downloadBadges}>
             <a
               href="https://play.google.com/store/apps/details?id=cn.gavinliu.snapmod"
@@ -15,14 +22,14 @@ export default function DownloadSection(): ReactNode {
             >
               <img
                 className={styles.appBadge}
-                src="/img/google-play-badge.svg"
+                src="img/google-play-badge.svg"
                 alt="Get it on Google Play"
               />
             </a>
             <a href="#!" target="_blank" className={styles.badgeLink}>
               <img
                 className={styles.appBadge}
-                src="/img/app-store-badge.svg"
+                src="img/app-store-badge.svg"
                 alt="Download on the App Store"
               />
             </a>
