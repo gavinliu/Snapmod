@@ -20,7 +20,7 @@ export default function HeroSection(): ReactNode {
                 {translate({
                   id: "homepage.hero.subtitle",
                   message:
-                    "Lets you to easily add screenshots into device bezels, You can use it to share your screenshots, wallpapers or app mockups",
+                    "Better screenshot mockup tools, easily add screenshots into device bezels. You can use it to share your screenshots, wallpapers or app mockups.",
                   description: "The subtitle of the hero section",
                 })}
               </p>

@@ -4,7 +4,7 @@
     "description": "The title of the hero section"
   },
   "homepage.hero.subtitle": {
-    "message": "让你轻松将截图添加到设备边框中，你可以用它来分享截图、壁纸或应用样机",
+    "message": "更好用的带壳截图工具，可轻松将截图添加到设备边框中，你可以用它来分享壁纸或应用程序截图",
     "description": "The subtitle of the hero section"
   },
   "homepage.features.title.device-compatibility": {
