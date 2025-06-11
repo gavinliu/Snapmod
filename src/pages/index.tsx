@@ -34,6 +34,7 @@ import HeroSection from "@site/src/components/HeroSection";
 import DownloadSection from "../components/DownloadSection";
 import FeaturesSection from "../components/FeaturesSection";
 import TestimonialSection from "../components/TestimonialSection";
+import ReviewsSection from "../components/ReviewsSection";
 
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
@@ -46,6 +47,7 @@ export default function Home(): ReactNode {
         <HeroSection />
         <TestimonialSection />
         <FeaturesSection />
+        <ReviewsSection />
         <DownloadSection />
       </main>
     </Layout>

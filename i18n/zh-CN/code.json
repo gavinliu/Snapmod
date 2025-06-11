@@ -51,6 +51,14 @@
     "message": "立即获取应用！",
     "description": "Download section title"
   },
+  "homepage.reviews.title": {
+    "message": "用户评价",
+    "description": "Reviews section title"
+  },
+  "homepage.reviews.subtitle": {
+    "message": "加入数千名满意用户的行列，让你的截图焕然一新",
+    "description": "Reviews section subtitle"
+  },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
     "description": "The title of the fallback page when the page crashed"
