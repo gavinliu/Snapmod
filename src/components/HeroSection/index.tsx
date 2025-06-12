@@ -37,7 +37,11 @@ export default function HeroSection(): ReactNode {
                     alt="Get it on Google Play"
                   />
                 </a>
-                <a href="#!" target="_blank" className={styles.badgeLink}>
+                <a
+                  href="https://apps.apple.com/us/app/snapmod/id6746100828"
+                  target="_blank"
+                  className={styles.badgeLink}
+                >
                   <img
                     className={styles.appBadge}
                     src="img/app-store-badge.svg"
