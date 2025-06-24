@@ -1,64 +1,56 @@
 # 隐私政策
 
-This privacy policy applies to the Snapmod app (hereby referred to as "Application") for mobile devices that was created by Gavin Liu (hereby referred to as "Service Provider") as a Freemium service. This service is intended for use "AS IS".
+本隐私政策适用于由 LIU YUNLONG（以下简称"我们"）创建的移动设备应用程序 Snapmod（以下简称"应用程序"），该应用程序作为免费增值服务提供。
 
-## Information Collection and Use
+## 信息收集和使用
 
-The Application collects information when you download and use it. This information may include information such as
+应用程序在您使用时会收集信息，这些信息仅包括：
 
-- Your device's Internet Protocol address (e.g. IP address)
-- The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-- The time spent on the Application
-- The operating system you use on your mobile device
+- 您访问的页面、访问时间和日期、在这些页面上花费的时间
+- 您使用设备的操作系统、操作系统版本、设备类型、设备型号
 
-make use of in below ways:
+通过以下方式使用这些信息：
 
-- Analytics and Improvements: Aggregated and anonymized data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.
-- Third-Party Services: Periodically, the Service Provider may transmit anonymized data to external services. These services assist them in enhancing the Application and optimizing their offerings.
+- 分析和改进：我们会匿名化您的数据并使用它来分析用户行为、识别趋势，并改进应用程序的整体性能和功能。
+- 第三方服务：我们会定期向下述第三方服务传输匿名化数据，这些服务协助我们增强应用程序并优化其产品。
 
-## Third Party Access
+## 第三方服务
 
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+只有匿名化数据才会传输给外部服务，以帮助我们改进应用程序和服务。我们会按照本隐私声明中描述的方式与第三方共享您的信息。
 
-Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+请注意，我们仅使用具有其自身数据处理隐私政策的第三方服务，以下是应用程序使用的第三方服务的隐私政策链接：
 
 - [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
 - [Firebase Crashlytics](https://firebase.google.com/support/privacy)
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+## 退出权利
 
-- as required by law, such as to comply with a subpoena, or similar legal process;
-- when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-- with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+您可以通过卸载应用程序轻松停止所有信息收集，您可以使用移动设备或移动应用程序市场或网络提供的标准卸载流程。
 
-## Opt-Out Rights
+## 数据保留政策
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+我们将在您使用应用程序期间以及此后的合理时间内保留用户提供的数据。如果您希望删除您通过应用程序提供的用户数据，请通过 snapmod@gavinliu.cn 联系我们，我们将在合理时间内回复。
 
-## Data Retention Policy
+## 儿童
 
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at 78450965@qq.com and they will respond in a reasonable time.
+我们不会故意向 13 岁以下的儿童征求数据或进行营销。
 
-## Children
+应用程序不面向 13 岁以下的任何人，我们不会故意收集 13 岁以下儿童的个人身份信息。如果我们发现 13 岁以下的儿童提供了个人信息，我们将立即从其服务器中删除这些信息。如果您是父母或监护人，并且您知道您的孩子向我们提供了个人信息，请联系我们 snapmod@gavinliu.cn，我们将在合理时间内删除这些信息。
 
-The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+## 安全
 
-The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (78450965@qq.com) so that they will be able to take the necessary actions.
+我们关注保护您信息的机密性。我们提供物理、电子和程序保障措施来保护我们处理和维护的信息。
 
-## Security
+## 变更
 
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+本隐私政策可能会因任何原因不时更新。我们将通过在此页面上更新新的隐私政策来通知您隐私政策的任何变更。建议您定期查阅本隐私政策以了解任何变更，因为继续使用被视为对所有变更的批准。
 
-## Changes
+本隐私政策自 2025-06-10 起生效
 
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+## 您的同意
 
-This privacy policy is effective as of 2025-06-10
+通过使用应用程序，您同意按照本隐私政策的规定处理您的信息。
 
-## Your Consent
+## 联系我们
 
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
-
-## Contact Us
-
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at 78450965@qq.com.
+如果您在使用应用程序时对隐私有任何疑问，或对相关做法有疑问，请通过电子邮件 snapmod@gavinliu.cn 联系我们。
