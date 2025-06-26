@@ -1,34 +1,34 @@
 # 使用条款
 
-These terms and conditions apply to the Snapmod app (hereby referred to as "Application") for mobile devices that was created by Gavin Liu (hereby referred to as "Service Provider") as a Freemium service.
+本使用条款适用于由 LIU YUNLONG（以下简称"我们"）创建的移动设备应用程序 Snapmod（以下简称"应用程序"），该应用程序作为免费增值服务提供。
 
-Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.
+下载或使用本应用程序即表示您自动同意以下条款。强烈建议您在使用应用程序之前仔细阅读并理解这些条款。严禁未经授权复制、修改应用程序、应用程序的任何部分或我们的商标。不允许任何试图提取应用程序源代码、将应用程序翻译成其他语言或创建衍生版本的行为。与应用程序相关的所有商标、版权、数据库权利和其他知识产权仍属于我们所有。
 
-The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.
+我们致力于确保应用程序尽可能有益和高效。因此，我们保留随时因任何原因修改应用程序或对其服务收费的权利。我们向您保证，应用程序或其服务的任何收费都将明确告知您。
 
-The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advise against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all.
+应用程序存储和处理您向我们提供的个人数据，以便提供服务。您有责任维护手机和应用程序访问的安全。我们强烈建议不要越狱或获取手机的 root 权限，这涉及移除设备官方操作系统施加的软件限制和限制。此类行为可能会使您的手机暴露于恶意软件、病毒、恶意程序，损害手机的安全功能，并可能导致应用程序无法正常运行或完全无法运行。
 
-Please note that the Application utilizes third-party services that have their own Terms and Conditions. Below are the links to the Terms and Conditions of the third-party service providers used by the Application:
+请注意，应用程序使用具有自己使用条款的第三方服务。以下是应用程序使用的第三方服务提供商的使用条款链接：
 
 - [Google Analytics for Firebase](https://www.google.com/analytics/terms/)
 - [Firebase Crashlytics](https://firebase.google.com/terms/crashlytics)
 
-Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.
+请注意，我们不对某些方面承担责任。应用程序的某些功能需要有效的互联网连接，可以是 Wi-Fi 或由您的移动网络提供商提供。如果由于无法访问 Wi-Fi 或您已用完数据流量而导致应用程序无法全面运行，我们不承担责任。
 
-If you are using the application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the application, or other third-party charges. By using the application, you accept responsibility for any such charges, including roaming data charges if you use the application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the application, they assume that you have obtained permission from the bill payer.
+如果您在 Wi-Fi 区域外使用应用程序，请注意您的移动网络提供商的协议条款仍然适用。因此，您可能会因连接到应用程序期间的数据使用或其他第三方费用而产生移动提供商的费用。通过使用应用程序，您接受对任何此类费用的责任，包括如果您在家庭区域（即地区或国家）外使用应用程序而未禁用数据漫游的漫游数据费用。如果您不是使用应用程序设备的账单付款人，他们假设您已获得账单付款人的许可。
 
-Similarly, the Service Provider cannot always assume responsibility for your usage of the application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.
+同样，我们不能总是对您使用应用程序承担责任。例如，您有责任确保设备保持充电状态。如果您的设备电池耗尽且无法访问服务，我们不承担责任。
 
-In terms of the Service Provider's responsibility for your use of the application, it is important to note that while they strive to ensure that it is updated and accurate at all times, they do rely on third parties to provide information to them so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the application.
+就我们对您使用应用程序的责任而言，重要的是要注意，虽然他们努力确保应用程序始终更新和准确，但他们确实依赖第三方向他们提供信息，以便他们可以向您提供信息。我们对您因完全依赖应用程序的此功能而遭受的任何直接或间接损失不承担任何责任。
 
-The Service Provider may wish to update the application at some point. The application is currently available as per the requirements for the operating system (and for any additional systems they decide to extend the availability of the application to) may change, and you will need to download the updates if you want to continue using the application. The Service Provider does not guarantee that it will always update the application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the application when offered to you. The Service Provider may also wish to cease providing the application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the application, and (if necessary) delete it from your device.
+我们可能希望在某个时候更新应用程序。应用程序目前根据操作系统的要求提供（以及他们决定扩展应用程序可用性的任何其他系统）可能会发生变化，如果您想继续使用应用程序，您需要下载更新。我们不保证始终更新应用程序，使其与您相关和/或与安装在您设备上的特定操作系统版本兼容。但是，您同意在向您提供应用程序更新时始终接受更新。我们也可能希望停止提供应用程序，并可能随时终止其使用，而无需向您提供终止通知。除非他们另行通知您，否则在任何终止时，(a) 这些条款中授予您的权利和许可将终止；(b) 您必须停止使用应用程序，并（如有必要）从您的设备中删除它。
 
-## Changes to These Terms and Conditions
+## 使用条款的变更
 
-The Service Provider may periodically update their Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms and Conditions on this page.
+我们可能会定期更新其使用条款。因此，建议您定期查看此页面以了解任何变更。我们将通过在此页面发布新的使用条款来通知您任何变更。
 
-These terms and conditions are effective as of 2025-06-10
+本使用条款自 2025-06-10 起生效
 
-## Contact Us
+## 联系我们
 
-If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to contact the Service Provider at 78450965@qq.com.
+如果您对使用条款有任何疑问或建议，请随时通过 snapmod@gavinliu.cn 联系我们。
