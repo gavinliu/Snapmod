@@ -121,6 +121,11 @@ const config: Config = {
             },
           ],
         },
+        {
+          to: "/blog",
+          label: "Blog",
+          position: "left",
+        },
         // 添加语言切换器
         {
           type: "localeDropdown",
@@ -171,10 +176,10 @@ const config: Config = {
         {
           title: "More",
           items: [
-            // {
-            //   label: "Blog",
-            //   to: "/blog",
-            // },
+            {
+              label: "Blog",
+              to: "/blog",
+            },
             {
               label: "GitHub",
               href: "https://github.com/gavinliu/Snapmod",
