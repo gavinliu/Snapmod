@@ -1,0 +1,12 @@
+[
+  {
+    "type": "file",
+    "name": "privacy-policy",
+    "label": "Privacy Policy"
+  },
+  {
+    "type": "file",
+    "name": "terms-conditions",
+    "label": "Terms and Conditions"
+  }
+]

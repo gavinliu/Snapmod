@@ -1,0 +1,429 @@
+:root {
+  --rp-c-brand: #4a4a4a;
+  --rp-c-brand-light: #666;
+  --rp-c-brand-lighter: #777;
+  --rp-c-brand-dark: #333;
+  --rp-c-brand-darker: #222;
+  --rp-c-brand-tint: #4a4a4a12;
+}
+.dark {
+  --rp-c-brand: #d6d6d6;
+  --rp-c-brand-light: #eee;
+  --rp-c-brand-lighter: #fff;
+  --rp-c-brand-dark: #bbb;
+  --rp-c-brand-darker: #aaa;
+  --rp-c-brand-tint: #ffffff12;
+}
+/* Homepage geometry and visual values migrated from the old site's CSS.
+   Keep these rules scoped so policy pages continue using the Rspress theme. */
+.snap-home {
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    Ubuntu,
+    Cantarell,
+    'Noto Sans',
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #1c1e21;
+  background: #fff;
+}
+.dark .snap-home {
+  color: #e3e3e3;
+  background: #1b1b1d;
+}
+.snap-home *,
+.snap-home *::before,
+.snap-home *::after {
+  box-sizing: border-box;
+}
+.snap-home h1,
+.snap-home h2,
+.snap-home h3,
+.snap-home h4,
+.snap-home p,
+.snap-home figure,
+.snap-home blockquote {
+  margin: 0;
+}
+.snap-home img {
+  display: inline;
+  max-width: 100%;
+}
+.snap-home .container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.snap-home .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+.snap-home .col {
+  width: 100%;
+  padding: 0 16px;
+  flex: 0 0 var(--snap-col-width);
+  max-width: var(--snap-col-width);
+}
+.snap-home .col--4 {
+  --snap-col-width: 33.33333%;
+}
+.snap-home .col--6 {
+  --snap-col-width: 50%;
+}
+.snap-home .col--8 {
+  --snap-col-width: 66.66667%;
+}
+.snap-home .text--center {
+  text-align: center;
+}
+.snap-home .margin-bottom--lg {
+  margin-bottom: 32px;
+}
+.snap-home .snap-downloads a {
+  line-height: 1.65;
+}
+.snap-home .download .snap-downloads {
+  justify-content: center;
+}
+.snap-home .reviewsTitle {
+  color: #03a9f4;
+}
+.snap-home .reviewsSubtitle {
+  color: #b3b3b3;
+}
+.snap-home .reviewAvatar {
+  background: linear-gradient(135deg, #03a9f4, #ebedf0);
+}
+.snap-home .reviewName {
+  color: #444950;
+}
+.snap-home .reviewComment {
+  color: #606770;
+}
+.snap-home a:focus-visible {
+  outline: 3px solid var(--rp-c-brand);
+  outline-offset: 5px;
+}
+.snap-home .masthead {
+  overflow: hidden;
+  padding: 4rem 0;
+  position: relative;
+}
+.snap-home .heroContent {
+  margin-top: 4rem;
+  text-align: left;
+}
+.snap-home .heroTitle {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+.snap-home .heroSubtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+.snap-home .snap-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.snap-home .snap-downloads a {
+  display: inline-block;
+}
+.snap-home .snap-downloads img {
+  height: 60px;
+  transition: transform 0.3s;
+}
+.snap-home .snap-downloads img:hover {
+  transform: scale(1.05);
+}
+.snap-home .deviceMockup {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.snap-home .deviceWrapperStack,
+.snap-home .deviceWrapperHero {
+  position: relative;
+  width: 350px;
+}
+.snap-home .download,
+.snap-home .testimonial {
+  background: linear-gradient(135deg, #87ceeb, #4682b4);
+  color: #fff;
+  padding: 4rem 0;
+}
+.snap-home .downloadTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.snap-home .download .snap-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.snap-home .features {
+  padding: 4rem 0;
+}
+.snap-home .featureIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.snap-home .featureTitle {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.snap-home .featureDescription {
+  color: #6c757d;
+  line-height: 1.6;
+}
+.snap-home .featuresDevice {
+  display: flex;
+  justify-content: center;
+}
+.snap-home .stackedImages {
+  align-items: center;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.snap-home .stackedImage {
+  border-radius: 20px;
+  height: auto;
+  position: absolute;
+  transition:
+    transform 0.3s,
+    z-index 0.3s;
+  width: 280px;
+}
+.snap-home .stackedImage:first-child {
+  transform: rotate(-8deg) translateX(-20px) translateY(-10px);
+  z-index: 1;
+}
+.snap-home .stackedImage:nth-child(2) {
+  transform: rotate(-4deg) translateX(-10px) translateY(-5px);
+  z-index: 2;
+}
+.snap-home .stackedImage:nth-child(3) {
+  transform: rotate(0);
+  z-index: 3;
+}
+.snap-home .stackedImage:nth-child(4) {
+  transform: rotate(4deg) translateX(10px) translateY(-5px);
+  z-index: 2;
+}
+.snap-home .stackedImage:nth-child(5) {
+  transform: rotate(8deg) translateX(20px) translateY(-10px);
+  z-index: 1;
+}
+.snap-home .stackedImages:hover .stackedImage:first-child {
+  transform: rotate(-12deg) translateX(-40px) translateY(-20px);
+}
+.snap-home .stackedImages:hover .stackedImage:nth-child(2) {
+  transform: rotate(-6deg) translateX(-20px) translateY(-10px);
+}
+.snap-home .stackedImages:hover .stackedImage:nth-child(3) {
+  transform: rotate(0) scale(1.05);
+  z-index: 5;
+}
+.snap-home .stackedImages:hover .stackedImage:nth-child(4) {
+  transform: rotate(6deg) translateX(20px) translateY(-10px);
+}
+.snap-home .stackedImages:hover .stackedImage:nth-child(5) {
+  transform: rotate(12deg) translateX(40px) translateY(-20px);
+}
+.snap-home .testimonialText {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+.snap-home .testimonialLogo {
+  height: 3rem;
+  opacity: 0.8;
+}
+.snap-home .reviews {
+  background: #f8f9fa;
+  padding: 4rem 0;
+}
+.snap-home .reviewsTitle {
+  color: #03a9f4;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.snap-home .reviewsSubtitle {
+  color: #b3b3b3;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.snap-home .reviewCard {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px #0000001a;
+  height: 100%;
+  padding: 1.5rem;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.snap-home .reviewCard:hover {
+  box-shadow: 0 8px 25px #00000026;
+  transform: translateY(-4px);
+}
+.snap-home .reviewHeader {
+  align-items: center;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.snap-home .reviewAvatar {
+  align-items: center;
+  background: linear-gradient(135deg, #03a9f4, #ebedf0);
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  margin-right: 1rem;
+  width: 48px;
+}
+.snap-home .reviewMeta {
+  flex: 1;
+}
+.snap-home .reviewName {
+  color: #444950;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+.snap-home .starRating {
+  display: flex;
+  gap: 2px;
+}
+.snap-home .starFilled {
+  color: gold;
+  font-size: 1rem;
+}
+.snap-home .starEmpty {
+  color: #e0e0e0;
+  font-size: 1rem;
+}
+.snap-home .reviewComment {
+  color: #606770;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+@media screen and (max-width: 996px) {
+  .snap-home .masthead {
+    padding: 3rem 0;
+  }
+  .snap-home .heroTitle {
+    font-size: 2.5rem;
+  }
+  .snap-home .heroContent {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .snap-home .deviceWrapperHero {
+    height: 500px;
+    width: 250px;
+  }
+  .snap-home .snap-downloads {
+    justify-content: center;
+  }
+  .snap-home .deviceWrapperStack {
+    width: 250px;
+  }
+  .snap-home .stackedImages {
+    height: 450px;
+  }
+  .snap-home .stackedImage {
+    width: 200px;
+  }
+  .snap-home .reviewsTitle {
+    font-size: 2rem;
+  }
+  .snap-home .reviewsSubtitle {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .snap-home .heroTitle {
+    font-size: 2rem;
+  }
+  .snap-home .deviceWrapperHero {
+    height: 400px;
+    width: 200px;
+  }
+  .snap-home .deviceWrapperStack {
+    width: 200px;
+  }
+  .snap-home .stackedImages {
+    height: 350px;
+  }
+  .snap-home .stackedImage {
+    width: 160px;
+  }
+  .snap-home .testimonialText {
+    font-size: 1.5rem;
+  }
+  .snap-home .reviews {
+    padding: 3rem 0;
+  }
+  .snap-home .reviewsTitle {
+    font-size: 1.8rem;
+  }
+  .snap-home .reviewCard {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 1440px) {
+  .snap-home .container {
+    max-width: 1320px;
+  }
+}
+@media (max-width: 996px) {
+  .snap-home .col {
+    --snap-col-width: 100%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .snap-home *,
+  .snap-home *::before,
+  .snap-home *::after {
+    transition: none !important;
+  }
+}
+
+.snap-home h1,
+.snap-home h2,
+.snap-home h3,
+.snap-home h4 {
+  line-height: 1.25;
+}
+.snap-home .heroTitle {
+  line-height: 1.1;
+}
+.snap-home .testimonialText {
+  line-height: 1.3;
+}

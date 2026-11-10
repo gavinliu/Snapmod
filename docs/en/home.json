@@ -1,0 +1,66 @@
+{
+  "title": "Snapmod - Screenshot Mockups",
+  "intro": "Better screenshot mockup tools, easily add screenshots into device bezels. You can use it to share your screenshots, wallpapers or app mockups.",
+  "quote": "\"An intuitive solution to a common problem that we all face, wrapped up in a single app!\"",
+  "reviewsTitle": "What Our Users Say",
+  "reviewsSubtitle": "Join thousands of satisfied users who have transformed their screenshots",
+  "download": "Get the app now!",
+  "features": [
+    {
+      "icon": "📱",
+      "title": "Device Compatibility",
+      "text": "From iOS to Android, compatible with mainstream models, making your screenshots perfect on any device!"
+    },
+    {
+      "icon": "✨",
+      "title": "Minimal Design",
+      "text": "Powered by Material Design 3, every pixel is carefully crafted, so stunning you can't help but look twice!"
+    },
+    {
+      "icon": "🎨",
+      "title": "Smart Theming",
+      "text": "AI intelligently recognizes screenshot theme colors, automatically switches to the best theme, creating a unique visual feast!"
+    },
+    {
+      "icon": "🌈",
+      "title": "Magic Background",
+      "text": "Say goodbye to boring backgrounds! Automatically generates ever-changing blurred backgrounds, instantly turning your screenshots into art!"
+    },
+    {
+      "icon": "⚡",
+      "title": "Lightning Speed",
+      "text": "Millisecond response, so smooth you'll question reality! No more waiting, capture inspiration instantly!"
+    },
+    {
+      "icon": "🎯",
+      "title": "Two-Step Export",
+      "text": "Revolutionary two-step operation, from screenshot to export in the blink of an eye, so simple even grandma can master it!"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "张小明",
+      "text": "作为一个设计师，我对这个应用简直爱不释手！Material Design 3 的设计语言真的太棒了，每个像素都经过精心雕琢。特别是智能主题功能，AI 能自动识别我截图的主题色并切换到最佳主题，省去了我手动调整的麻烦。"
+    },
+    {
+      "name": "Sarah Johnson",
+      "text": "As a UI/UX designer, I'm absolutely in love with this app! The Material Design 3 implementation is flawless - every pixel is meticulously crafted. The smart theming feature is a game-changer; the AI automatically detects my screenshot's color scheme and applies the perfect theme."
+    },
+    {
+      "name": "李美丽",
+      "text": "真的太方便了！以前用其他应用总是要点来点去好多步骤，现在从截图到导出真的就是眨眼间的事情。而且速度超快，毫秒级响应，完全不用等待。"
+    },
+    {
+      "name": "Mike Chen",
+      "text": "The two-step export feature is incredibly convenient! My grandmother could literally use this app - it's that simple. Other apps require so many taps and steps, but this one goes from screenshot to export in the blink of an eye."
+    },
+    {
+      "name": "王程序",
+      "text": "兼容性做得非常好！我有 iPhone 16 和 小米 14，两个设备上使用体验都很棒。截图效果都很完美。作为一个技术人员，我很欣赏这种跨平台的一致性体验。"
+    },
+    {
+      "name": "Emma Thompson",
+      "text": "The magic background feature is absolutely stunning! No more boring, plain backgrounds. The app automatically generates ever-changing blurred backgrounds that instantly turn my screenshots into works of art."
+    }
+  ]
+}
